@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1></h1>
+    <h2></h2>
+    <h3></h3>
+    <h4></h4>
+
+    <script>
+        var city = 'italy';
+        switch (city) {
+            case 'paris':
+                console.log('paris is a beautifull city');
+                document.querySelector("h1").innerHTML = "paris is a beautifull city";
+                break;
+            case 'switzerland':
+                console.log('switzerland is a gorgious place');
+                document.querySelector("h2").innerHTML = "switzerland is a gorgious place";
+                break;
+            case 'NewYork':
+                console.log('NewYork is a wonderfull city');
+                document.querySelector("h3").innerHTML = "NewYork is a wonderfull city";
+                break;
+            default: console.log('Enjoy your dream city italy');
+            document.querySelector("h4").innerHTML = "Enjoy your dream city italy";
+        }
+    </script>
+</body>
+</html>
